@@ -129,7 +129,7 @@ const $=id=>document.getElementById(id), svgNS='http://www.w3.org/2000/svg';let 
  const legSX=188/257, legSY=80/105, legOX=cx-94, legOY=cy-3;
  const upperSX=116/210, upperSY=78/141, upperOX=cx-58, upperOY=cy-64;
  const leftLegPoly=[[0,50],[8,34],[25,26],[56,24],[94,23],[120,27],[133,35],[133,52],[123,62],[111,68],[100,73],[89,71],[73,65],[58,57],[46,56],[38,60],[24,72],[9,82],[0,74]];
- const rightLegPoly=[[122,34],[136,25],[165,23],[200,24],[228,30],[246,40],[249,53],[244,65],[233,72],[224,79],[214,83],[205,83],[197,78],[188,71],[179,66],[170,64],[160,67],[149,73],[137,80],[127,82],[123,76]];
+ const rightLegPoly=[[122,34],[136,25],[165,23],[200,24],[228,30],[246,40],[252,54],[252,69],[246,81],[236,89],[223,94],[210,95],[198,91],[187,83],[178,75],[169,70],[159,72],[148,78],[137,85],[127,90],[121,82]];
  const upperPoly=[[56,47],[61,24],[72,9],[105,0],[155,9],[188,29],[192,55],[187,72],[173,76],[169,72],[176,93],[164,100],[154,92],[150,128],[56,128],[55,95],[34,88],[23,81],[16,71],[16,60],[25,48],[39,39]];
  const leftClip=el('clipPath',{id:'legLeftClip'},defs); el('polygon',{points:pts(leftLegPoly,legOX,legOY,legSX,legSY)},leftClip);
  const rightClip=el('clipPath',{id:'legRightClip'},defs); el('polygon',{points:pts(rightLegPoly,legOX,legOY,legSX,legSY)},rightClip);
